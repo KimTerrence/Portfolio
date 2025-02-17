@@ -1,27 +1,40 @@
-import { useState } from 'react'
-import './App.css'
-import Navbar from './components/Navbar'
-import Me from './components/About'
-import Home from './components/Home'
-import Skill from './components/skill'
-import Project from './components/Projects'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+//-----dependencies
+import React from "react";
+import { useState, useEffect} from "react";
+import ReactDOM from "react-dom/client";
+import { Routes, Route, useLocation } from "react-router";
 
-function App() {
-  const [count, setCount] = useState(0)
+//-----pages
 
-  return (
-    <>
-      <Navbar/>
-      <Home/>
-      <Me/>
-      <Skill />
-      <Project/> 
-      <Contact />
-      <Footer/>
-    </>
-  )
+import Welcome from "./pages/Welcome";
+import About from "./pages/About";
+import NotFound from "./pages/Notfound";
+
+//-----components
+import LoadingBar from "./components/LoadingBar";
+
+export default function App(){
+
+  const location = useLocation();
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    const timer = setTimeout(() => setLoading(false), 500); // Simulate loading delay
+    return () => clearTimeout(timer);
+  }, [location]);
+
+return(
+  <>
+  <LoadingBar isLoading={loading} />
+   <Routes classname=""> 
+      
+      <Route index element={<Welcome />} />
+      <Route path="/about" element={<About />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  </>
+   
+
+);
 }
-
-export default App

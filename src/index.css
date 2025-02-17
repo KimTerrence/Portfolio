@@ -1,6 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+@import "tailwindcss";
+
+
+@theme { 
+
+    /*-----Colors-----*/
+    --color-slateBlue: #2c3e50;
+    --color-lightGray: #ecf0f1;  
+    
+    /*-----Fonts-----*/
+    --font-bebas: "Bebas NEUE" ;
+
+    /*-----Font Size-----*/
+    --text-big: 12rem; 
+    --text-10xl: 18rem;
+    
+}
+
+.text-stroke{
+    -webkit-text-stroke: 1px #ecf0f1;
+}
