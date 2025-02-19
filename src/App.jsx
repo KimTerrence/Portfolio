@@ -27,7 +27,7 @@ export default function App(){
 return(
   <>
   <LoadingBar isLoading={loading} />
-   <Routes classname=""> 
+   <Routes classname="bg-primary"> 
       
       <Route index element={<Welcome />} />
       <Route path="/about" element={<About />} />

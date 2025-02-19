@@ -7,14 +7,17 @@ import { faComputerMouse } from "@fortawesome/free-solid-svg-icons";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import Nav from "../components/Nav";
 
 export default function about(){
     return(
+        <>
+        <Nav></Nav>
         <Container >
-                <div className="flex h-screen w-full items-center justify-center flex-col">
-                    <p className="font-bebas text-8xl text-slateBlue text-stroke sm:text-big/20 absolute left-0 sm:left-75 top-70 sm:top-60">About Me</p>
-                    <p className="font-bebas text-8xl/25 sm:text-big/55 z-10 bg-slateBlue w-full text-center sm:h-50">About Me  </p>
-                    <p className="font-bebas text-8xl text-slateBlue text-stroke sm:text-big/20 absolute right-0 sm:right-75 bottom-70 sm:bottom-60 ">About Me</p>
+                <div className="flex h-screen w-full items-center justify-center flex-col -mt-20">
+                    <p className="font-bebas text-8xl text-primary text-stroke sm:text-big/20 relative left-0 sm:left-65 top-70 sm:top-60">About Me</p>
+                    <p className="font-bebas text-8xl/25 sm:text-big/55 z-10 bg-primary w-full text-center sm:h-50">About Me  </p>
+                    <p className="font-bebas text-8xl text-primary text-stroke sm:text-big/20 relative right-0 sm:right-65 bottom-70 sm:bottom-60 ">About Me</p>
                     <div className="w-full flex justify-center items-center">
                         <a href="#about" className="absolute bottom-20"><FontAwesomeIcon icon={faComputerMouse} size="2xl" style={{color: "#ecf0f1",}} /></a>
                         <motion.div className="absolute"
@@ -35,7 +38,7 @@ export default function about(){
                         ><FontAwesomeIcon icon={faAnglesDown} size="2xl" style={{color: "#ecf0f1",}} /></motion.div>
                     </div>
                 </div>
-                <div className="h-screen sm:px-60 sm:pt-20 flex relative" id="about">
+                <div className="h-screen sm:pt-20 flex relative" id="about">
                     <div>
                         <p className="font-bebas sm:text-7xl">Kim Terrence S. Quines</p>
                         <div className="flex gap-5">
@@ -157,5 +160,6 @@ export default function about(){
                        
                 </div>
         </Container>
+        </>
     )
 }
