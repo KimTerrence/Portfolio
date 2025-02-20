@@ -3,7 +3,7 @@ import NProgress from "nprogress";
 import "nprogress/nprogress.css";
 
 // Customize the loading bar
-NProgress.configure({ showSpinner: false, speed: 500 });
+NProgress.configure({ showSpinner: false, speed: 500});
 
 export default function LoadingBar({ isLoading }) {
   useEffect(() => {
