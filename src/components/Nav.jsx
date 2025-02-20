@@ -6,7 +6,7 @@ export default function Nav(){
     return(
     
         <div className="sticky w-full top-0 left-0 right-0 bg-primary text-lightGray z-40">
-            <div className="relative h-20 flex justify-between items-center 2xl:px-30 text-lg w-full max-w-[1920px]">
+            <div className="relative h-20 flex justify-between items-center 2xl:px-30 text-lg w-full max-w-[1600px]">
                 <div>
                     <p className="font-bold text-lg/3 bg-primary z-10"><span>K</span><span>c</span><span>r</span><span>e</span><span>a</span><span>t</span><span>e</span>s<span></span></p>
                 </div>
