@@ -14,10 +14,10 @@ export default function Projects(){
            <div className="flex flex-col gap-5 pt-30">
                 <Title>My Recent Projects</Title>
                 <div className="flex gap-5 flex-wrap">
-                    <ProjCard link={''} img={'src/assets/projects/ppf.png'} name={'Portolio Website'} git={'https://github.com/KimTerrence/Portfolio'} tech={'React | Tailwind'} />
-                    <ProjCard link={''} img={'src/assets/projects/SmartSwitch.png'} name={'Smart Switch IOT + Web'} git={'notfound'} tech={'Bootstrap | PHP | Arduino'} />
-                    <ProjCard link={''} img={'src/assets/projects/sps.png'} name={'Smart Parking System IOT + Web'} git={'notfound'} tech={'React | Tailwind | Express | Arduino'} />
-                    <ProjCard link={''} img={'src/assets/projects/csug.png'} name={'CSU-G Bamboo Sanctuary'} git={'notfound'} tech={'HTML | CSS | JavaScript'} />
+                    <ProjCard link={''} img={'/assets/projects/ppf.png'} name={'Portolio Website'} git={'https://github.com/KimTerrence/Portfolio'} tech={'React | Tailwind'} />
+                    <ProjCard link={''} img={'/assets/projects/SmartSwitch.png'} name={'Smart Switch IOT + Web'} git={'notfound'} tech={'Bootstrap | PHP | Arduino'} />
+                    <ProjCard link={''} img={'/assets/projects/sps.png'} name={'Smart Parking System IOT + Web'} git={'notfound'} tech={'React | Tailwind | Express | Arduino'} />
+                    <ProjCard link={''} img={'/assets/projects/csug.png'} name={'CSU-G Bamboo Sanctuary'} git={'notfound'} tech={'HTML | CSS | JavaScript'} />
                     
                 </div>
            </div>

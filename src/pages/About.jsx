@@ -73,21 +73,21 @@ export default function about(){
                 <Title>Skills</Title>
                 <p className="text-lg">Technologies and tools that I use in building websites.</p>
                 <div className="flex flex-wrap gap-5">
-                    <Techs img={"src/assets/svg/HTML5.svg"} name="HTML"/>
-                    <Techs img={"src/assets/svg/CSS3.svg"} name="CSS"/>
-                    <Techs img={"src/assets/svg/JavaScript.svg"} name="JavaScrit"/>
-                    <Techs img={"src/assets/svg/Tailwind CSS.svg"} name="Tailwind"/>
-                    <Techs img={"src/assets/svg/Bootstrap.svg"} name="Bootsrap"/>
-                    <Techs img={"src/assets/svg/React.svg"} name="React"/>
-                    <Techs img={"src/assets/svg/Vite.js.svg"} name="Vite"/>
-                    <Techs img={"src/assets/svg/PHP.svg"} name="PHP"/>
+                    <Techs img={"/assets/svg/HTML5.svg"} name="HTML"/>
+                    <Techs img={"/assets/svg/CSS3.svg"} name="CSS"/>
+                    <Techs img={"/assets/svg/JavaScript.svg"} name="JavaScrit"/>
+                    <Techs img={"/assets/svg/Tailwind CSS.svg"} name="Tailwind"/>
+                    <Techs img={"/assets/svg/Bootstrap.svg"} name="Bootsrap"/>
+                    <Techs img={"/assets/svg/React.svg"} name="React"/>
+                    <Techs img={"/assets/svg/Vite.js.svg"} name="Vite"/>
+                    <Techs img={"/assets/svg/PHP.svg"} name="PHP"/>
                 </div>
                 <p className="text-lg">Others</p>
                 <div className="flex flex-wrap gap-5">
-                    <Techs img={"src/assets/svg/Java.svg"} name="Java"/>
-                    <Techs img={"src/assets/svg/CSharp.svg"} name="C#"/>
-                    <Techs img={"src/assets/svg/Arduino.svg"} name="Arduino"/>
-                    <Techs img={"src/assets/svg/MySQL.svg"} name="My SQL"/>
+                    <Techs img={"/assets/svg/Java.svg"} name="Java"/>
+                    <Techs img={"/assets/svg/CSharp.svg"} name="C#"/>
+                    <Techs img={"/assets/svg/Arduino.svg"} name="Arduino"/>
+                    <Techs img={"/assets/svg/MySQL.svg"} name="My SQL"/>
                 </div>
             </div>
         </Container>
