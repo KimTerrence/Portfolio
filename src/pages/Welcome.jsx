@@ -12,7 +12,7 @@ import Footer from "../components/Footer"
 
 export default function Welcome(){
 
-const hover = "hover:text-secondary ease-out duration-1000 hover:text-11xl"
+const hover = "hover:text-secondary ease-out duration-400 hover:text-11xl"
 
     return(
         <>
@@ -22,7 +22,7 @@ const hover = "hover:text-secondary ease-out duration-1000 hover:text-11xl"
             <div className="flex justify-center h-screen flex-col p-0 -mt-10 gap-10">
                 <div className="flex justify-center flex-col p-0 m-0 cursor-default">
                     <p className="text-xl text-secondary ">Hi there, I am</p>
-                    <p className="text-9xl sm:text-big font-bebas -mb-5"><span className={hover}>K</span><span className={hover}>I</span><span className={hover}>M</span> <span className={hover}>T</span><span className={hover}>E</span><span className={hover}>R</span><span className={hover}>R</span><span className={hover}>E</span><span className={hover}>N</span><span className={hover}>C</span><span className={hover}>E</span></p>
+                    <p className="text-9xl flex items-center sm:text-big font-bebas -mb-5"><span className={hover}>K</span><span className={hover}>I</span><span className={hover}>M</span><span className="px-5"></span><span className={hover}>T</span><span className={hover}>E</span><span className={hover}>R</span><span className={hover}>R</span><span className={hover}>E</span><span className={hover}>N</span><span className={hover}>C</span><span className={hover}>E</span></p>
                     <p className="text-6xl opacity-70 font-bold pb-3">Let me build web stuff for you.</p>
                     <i className="text-xl opacity-70"><span className="text-secondary">{'< '}</span>A Web Developer who loves to turn ideas into reality through web development. <span className="text-secondary">{' />'}</span></i>
                 </div>
@@ -47,7 +47,7 @@ const hover = "hover:text-secondary ease-out duration-1000 hover:text-11xl"
                     <LinkButton style="" link="/about">About Me</LinkButton>
                     <LinkButton style="ghost" link="/projects">Projects</LinkButton>
                 </div>
-                <p className="text-big absolute right-40 -bottom-15 font-bold opacity-10">yuno</p>
+                <p className="text-big absolute right-60 -bottom-15 font-bold opacity-5 overflow-hidden">yuno</p>
             </div>
             <Footer></Footer>   
         </Container>

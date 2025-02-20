@@ -8,11 +8,13 @@ import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Nav from "../components/Nav";
+import SideNav from "../components/SideNav";
 
 export default function about(){
     return(
         <>
         <Nav></Nav>
+        <SideNav/>
         <Container >
                 <div className="flex h-screen w-full items-center justify-center flex-col -mt-20">
                     <p className="font-bebas text-8xl text-primary text-stroke sm:text-big/20 relative left-0 sm:left-65 top-70 sm:top-60">About Me</p>
