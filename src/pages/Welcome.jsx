@@ -21,10 +21,10 @@ const hover = "hover:text-secondary ease-out duration-400 hover:text-11xl"
         <Container>
             <div className="flex justify-center h-screen flex-col p-0 -mt-10 gap-10">
                 <div className="flex justify-center flex-col p-0 m-0 cursor-default">
-                    <p className="text-xl text-secondary ">Hi there, I am</p>
-                    <p className="text-9xl flex items-center sm:text-big font-bebas -mb-5"><span className={hover}>K</span><span className={hover}>I</span><span className={hover}>M</span><span className="px-5"></span><span className={hover}>T</span><span className={hover}>E</span><span className={hover}>R</span><span className={hover}>R</span><span className={hover}>E</span><span className={hover}>N</span><span className={hover}>C</span><span className={hover}>E</span></p>
-                    <p className="text-6xl opacity-70 font-bold pb-3">Let me build web stuff for you.</p>
-                    <i className="text-xl opacity-70"><span className="text-secondary">{'< '}</span>A Web Developer who loves to turn ideas into reality through web development. <span className="text-secondary">{' />'}</span></i>
+                    <p className="text-sm sm:text-lg lg:text-xl 2xl:text-xl text-secondary ">Hi there, I am</p>
+                    <p className="text-7xl sm:text-9xl lg:text-11xl/40 2xl:text-big/50 flex items-center font-bebas sm:-mb-5"><span className={hover}>K</span><span className={hover}>I</span><span className={hover}>M</span><span className="px-2 sm:px-5"></span><span className={hover}>T</span><span className={hover}>E</span><span className={hover}>R</span><span className={hover}>R</span><span className={hover}>E</span><span className={hover}>N</span><span className={hover}>C</span><span className={hover}>E</span></p>
+                    <p className="text-xl sm:text-4xl lg:text-5xl 2xl:text-6xl opacity-70 font-bold pb-3">Let me build web stuff for you.</p>
+                    <i className="text-sm sm:text-sm lg:text-lg 2xl:text-xl opacity-70"><span className="text-secondary">{'< '}</span>A Web Developer who loves to turn ideas into reality through web development. <span className="text-secondary">{' />'}</span></i>
                 </div>
                 <div className="flex gap-5 items-center relative">
                     <motion.div className="absolute"
@@ -47,7 +47,7 @@ const hover = "hover:text-secondary ease-out duration-400 hover:text-11xl"
                     <LinkButton style="" link="/about">About Me</LinkButton>
                     <LinkButton style="ghost" link="/projects">Projects</LinkButton>
                 </div>
-                <p className="text-big absolute right-60 -bottom-15 font-bold opacity-5 overflow-hidden">yuno</p>
+                <p className="xl:text-11xl 2xl:text-big absolute right-60 -bottom-15 font-bold opacity-5 overflow-hidden">yuno</p>
             </div>
             <Footer></Footer>   
         </Container>

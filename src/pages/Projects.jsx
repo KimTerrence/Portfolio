@@ -19,7 +19,7 @@ export default function Projects(){
                     <ProjCard link={''} img={'/assets/projects/sps.png'} name={'Smart Parking System IOT + Web'} git={'notfound'} tech={'React | Tailwind | Express | Arduino'} />
                     <ProjCard link={''} img={'/assets/projects/csug.png'} name={'CSU-G Bamboo Sanctuary'} git={'notfound'} tech={'HTML | CSS | JavaScript'} />
                     
-                </div> 
+                </div>  
            </div>
 
         </Container>

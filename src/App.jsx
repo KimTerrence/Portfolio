@@ -13,6 +13,7 @@ import NotFound from "./pages/Notfound";
 //-----components
 import LoadingBar from "./components/LoadingBar";
 import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 export default function App(){
 
@@ -33,6 +34,7 @@ return(
       <Route index element={<Welcome />} />
       <Route path="/about" element={<About />} />
       <Route path="/project" element={<Projects />} />
+      <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   </>
