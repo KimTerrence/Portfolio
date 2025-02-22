@@ -18,17 +18,16 @@ export default function about(){
         <Nav></Nav>
         <SideNav/>
         <Container >
+        {
+        //-----About me section
+        }
             <div className="flex justify-center h-screen flex-col gap-5 -mt-20">
                 <Title>About Me</Title>
-
-            {
-            //-----About me section
-            }
-                <div className="flex gap-15">
-                    <div className="w-1/2">
+                <div className="flex gap-5 sm:gap-15 flex-col sm:flex-row">
+                    <div className="sm:w-1/2">
                         <p>Hi. I’m Kim Terrence, looking for an opportunity to start a career and enhance my skills in front-end web development.</p>
                     </div>
-                    <div className="w-1/2 flex flex-col gap-5">
+                    <div className="sm:w-1/2 flex flex-col gap-5">
                         <div>
                             <p className="font-bold">Bachelor of Science in Information Technology</p>
                             <p className="text-sm">Cagayan State University | 2022-2026</p>
@@ -45,7 +44,7 @@ export default function about(){
 
                 </div>
 
-                <div className="w-full flex justify-center items-center">
+                <div className="w-full hidden sm:flex justify-center items-center">
                         <a href="#skills" className="absolute bottom-20"><FontAwesomeIcon icon={faComputerMouse} size="2xl" style={{color: "#ecf0f1",}} /></a>
                         <motion.div className="absolute"
                         
@@ -69,10 +68,10 @@ export default function about(){
             {
             //-----Skills section
             }
-            <div className="h-screen flex justify-center flex-col gap-5" id="skills">
+            <div className="sm:h-screen flex justify-center flex-col gap-5" id="skills">
                 <Title>Skills</Title>
                 <p className="text-lg">Technologies and tools that I use in building websites.</p>
-                <div className="flex flex-wrap gap-5">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:grid-cols-6">
                     <Techs img={"/assets/svg/HTML5.svg"} name="HTML"/>
                     <Techs img={"/assets/svg/CSS3.svg"} name="CSS"/>
                     <Techs img={"/assets/svg/JavaScript.svg"} name="JavaScrit"/>
@@ -83,7 +82,7 @@ export default function about(){
                     <Techs img={"/assets/svg/PHP.svg"} name="PHP"/>
                 </div>
                 <p className="text-lg">Others</p>
-                <div className="flex flex-wrap gap-5">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:grid-cols-6">
                     <Techs img={"/assets/svg/Java.svg"} name="Java"/>
                     <Techs img={"/assets/svg/CSharp.svg"} name="C#"/>
                     <Techs img={"/assets/svg/Arduino.svg"} name="Arduino"/>
