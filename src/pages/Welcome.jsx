@@ -45,7 +45,7 @@ const hover = "hover:text-secondary ease-out duration-400 hover:text-11xl"
                        <FontAwesomeIcon icon={faCircleChevronRight} size="2xl" style={{"--fa-primary-color": "#2c3e50", "--fa-secondary-color": "#ecf0f1",}}/>
                     </motion.div>
                     <LinkButton style="" link="/about">About Me</LinkButton>
-                    <LinkButton style="ghost" link="/projects">Projects</LinkButton>
+                    <LinkButton style="ghost" link="/project">Projects</LinkButton>
                 </div>
 
             </div>
