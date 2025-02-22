@@ -2,7 +2,7 @@
 
 export default function Container({children}){
     return(
-        <div className="min-h-screen h-full bg-primary text-lightGray antialiased p-5 sm:px-20 lg:px-40 2xl:px-60 font-poppins w-screen max-w-[1600px] top-0 left-0 right-0">
+        <div className=" bg-primary text-lightGray antialiased h-full p-5 sm:px-20 lg:px-40 2xl:px-60 font-poppins w-screen max-w-[1600px] top-0 left-0 right-0">
             {children}
         </div>
     )

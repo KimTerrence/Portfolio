@@ -26,8 +26,8 @@ const hover = "hover:text-secondary ease-out duration-400 hover:text-11xl"
                     <p className="text-xl sm:text-4xl lg:text-5xl 2xl:text-6xl opacity-70 font-bold pb-3">Let me build web stuff for you.</p>
                     <i className="text-sm sm:text-sm lg:text-lg 2xl:text-xl opacity-70"><span className="text-secondary">{'< '}</span>A Web Developer who loves to turn ideas into reality through web development. <span className="text-secondary">{' />'}</span></i>
                 </div>
-                <div className="flex gap-5 items-center relative">
-                    <motion.div className="absolute"
+                <div className="flex gap-5 items-center justify-center sm:justify-start relative">
+                    <motion.div className="absolute hidden sm:flex"
                     animate={{
                         left:[
                              -40,
@@ -47,8 +47,9 @@ const hover = "hover:text-secondary ease-out duration-400 hover:text-11xl"
                     <LinkButton style="" link="/about">About Me</LinkButton>
                     <LinkButton style="ghost" link="/projects">Projects</LinkButton>
                 </div>
-                <p className="xl:text-11xl 2xl:text-big absolute right-60 -bottom-15 font-bold opacity-5 overflow-hidden">yuno</p>
+
             </div>
+            <p className="bottom-20 -right-20 text-8xl  sm:text-9xl sm:-right-60 sm:-bottom-3 md:-right-100 md:bottom-40 lg:text-11xl 2xl:text-big relative lg:-right-140 lg:bottom-60 font-bold opacity-5 overflow-hidden">yuno</p>
             <Footer></Footer>   
         </Container>
         
