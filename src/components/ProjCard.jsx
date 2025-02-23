@@ -3,9 +3,9 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons"
 
 export default function ProjCard({link, img, name, tech, git}){
     return(
-        <a href={link} className="rounded-md overflow-hidden">
+        <a href={link} className="rounded-md overflow-hidden z-0">
                 <div className="relative w-full h-48 overflow-hidden">   
-                    <img src={img} alt="" className="object-cover w-full"/>
+                    <img src={img} alt="" className=" sm:object-cover w-full"/>
                 </div>
                 <div className="py-4 bg-lightGray/5 flex flex-col justify-center">
                     <p className="md:text-sm lg:text-lg text-center font-bold">{name}</p>

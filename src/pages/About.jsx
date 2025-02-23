@@ -21,7 +21,7 @@ export default function about(){
         {
         //-----About me section
         }
-            <div className="flex justify-center h-screen flex-col gap-5 -mt-20">
+            <div className="flex justify-center h-screen flex-col gap-5 mt-10">
                 <Title>About Me</Title>
                 <div className="flex gap-5 sm:gap-15 flex-col sm:flex-row">
                     <div className="sm:w-1/2">

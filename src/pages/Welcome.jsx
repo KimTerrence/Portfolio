@@ -19,7 +19,7 @@ const hover = "hover:text-secondary ease-out duration-400 hover:text-11xl"
         <Nav></Nav>
         <SideNav></SideNav>
         <Container>
-            <div className="flex justify-center h-screen flex-col p-0 -mt-10 gap-10">
+            <div className="flex justify-center h-screen flex-col p-0 mt-10 gap-10">
                 <div className="flex justify-center flex-col p-0 m-0 cursor-default">
                     <p className="text-sm sm:text-lg lg:text-xl 2xl:text-xl text-secondary ">Hi there, I am</p>
                     <p className="text-7xl sm:text-9xl lg:text-11xl/40 2xl:text-big/50 flex items-center font-bebas sm:-mb-5"><span className={hover}>K</span><span className={hover}>I</span><span className={hover}>M</span><span className="px-2 sm:px-5"></span><span className={hover}>T</span><span className={hover}>E</span><span className={hover}>R</span><span className={hover}>R</span><span className={hover}>E</span><span className={hover}>N</span><span className={hover}>C</span><span className={hover}>E</span></p>
@@ -49,7 +49,7 @@ const hover = "hover:text-secondary ease-out duration-400 hover:text-11xl"
                 </div>
 
             </div>
-            <p className="bottom-20 -right-20 text-8xl  sm:text-9xl sm:-right-60 sm:-bottom-3 md:-right-100 md:bottom-40 lg:text-11xl 2xl:text-big relative lg:-right-140 lg:bottom-60 font-bold opacity-5 overflow-hidden">yuno</p>
+            <p className="bottom-20 right-5 text-8xl  sm:text-9xl sm:-right-60 sm:-bottom-3 md:-right-100 md:bottom-40 lg:text-11xl 2xl:text-big fixed  sm:relative lg:-right-140 lg:bottom-60 font-bold opacity-5 overflow--hidden">yuno</p>
             <Footer></Footer>   
         </Container>
         
