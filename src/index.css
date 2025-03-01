@@ -18,6 +18,27 @@
     --text-big: 12rem; 
     --text-11xl: 11rem; 
     --text-10xl: 18rem;
+
+    --animate-wiggle: wiggle 1s ease-in-out infinite;  
+
+    @keyframes wiggle {    
+        0%,    
+        100% {      transform: rotate(-3deg);    }    
+        50% {      transform: rotate(3deg);    }  
+    }
+
+   --animate-star-movement-bottom: star-movement-bottom linear infinite alternate;
+
+   @keyframes star-movement-bottom {    
+    0%: { transform: translate(0%, 0%); opacity: 1 ;}   
+    100% { transform: translate(-100%, 0%); opacity: 0;}
+}
+    --animate-star-movement-top: star-movement-top linear infinite alternate;
+
+   @keyframes star-movement-top {    
+    0%: {  transform: translate(0%, 0%); opacity: 1; }
+    100% {  transform: translate(100%, 0%); opacity: 0; }
+}
     
 }
 

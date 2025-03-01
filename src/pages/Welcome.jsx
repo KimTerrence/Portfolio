@@ -8,6 +8,9 @@ import Nav from "../components/Nav"
 import SideNav from "../components/SideNav"
 import Footer from "../components/Footer"
 
+import StarBorder from "../Animations/StarBorder/StarBorder"
+import SplashCursor from "../Animations/SplashCursor/SplashCursor"
+
 
 
 export default function Welcome(){
@@ -19,6 +22,7 @@ const hover = "hover:text-secondary ease-out duration-400 hover:text-11xl"
         <Nav></Nav>
         <SideNav></SideNav>
         <Container>
+            <SplashCursor></SplashCursor>
             <div className="flex justify-center h-screen flex-col p-0 mt-10 gap-10">
                 <div className="flex justify-center flex-col p-0 m-0 cursor-default">
                     <p className="text-sm sm:text-lg lg:text-xl 2xl:text-xl text-secondary ">Hi there, I am</p>
@@ -44,8 +48,31 @@ const hover = "hover:text-secondary ease-out duration-400 hover:text-11xl"
                     >
                        <FontAwesomeIcon icon={faCircleChevronRight} size="2xl" style={{"--fa-primary-color": "#2c3e50", "--fa-secondary-color": "#ecf0f1",}}/>
                     </motion.div>
-                    <LinkButton style="" link="/about">About Me</LinkButton>
-                    <LinkButton style="ghost" link="/project">Projects</LinkButton>
+
+                    <Link to={'/about'}>
+                        <StarBorder
+                            as="button"
+                            className="custom-class"
+                            color="cyan"
+                            speed="5s"
+                            >
+                                About Me
+                        </StarBorder>
+                    </Link>
+                    
+                    <Link to={'/project'}>
+                        <StarBorder
+                            as="button"
+                            className="custom-class"
+                            color="cyan"
+                            speed="5s"
+                            >
+                                Projects
+                        </StarBorder>
+                    </Link>
+
+
+                        
                 </div>
 
             </div>
