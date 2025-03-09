@@ -9,7 +9,6 @@ import SideNav from "../components/SideNav"
 import Footer from "../components/Footer"
 
 import StarBorder from "../Animations/StarBorder/StarBorder"
-import SplashCursor from "../Animations/SplashCursor/SplashCursor"
 
 
 
