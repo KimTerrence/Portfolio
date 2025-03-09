@@ -22,7 +22,6 @@ const hover = "hover:text-secondary ease-out duration-400 hover:text-11xl"
         <Nav></Nav>
         <SideNav></SideNav>
         <Container>
-            <SplashCursor></SplashCursor>
             <div className="flex justify-center h-screen flex-col p-0 mt-10 gap-10">
                 <div className="flex justify-center flex-col p-0 m-0 cursor-default">
                     <p className="text-sm sm:text-lg lg:text-xl 2xl:text-xl text-secondary ">Hi there, I am</p>
