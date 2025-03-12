@@ -30,19 +30,19 @@ export default function about(){
                     <div className="sm:w-1/2 flex flex-col gap-5">
                         <div>
                             <p className="font-bold">Bachelor of Science in Information Technology</p>
-                            <p className="text-sm">Cagayan State University | 2022-2026</p>
+                            <p className="text-sm text-white/50">Cagayan State University | 2022-2026</p>
                         </div>
                         <div>
                             <p className="font-bold">4th Place Static Web Design</p>
-                            <p className="text-sm">CSU Uniwide ICT | 2025</p>
+                            <p className="text-sm text-white/50">CSU Uniwide ICT | 2025</p>
                         </div>
                         <div>
                             <p className="font-bold">2nd Place Static Web Design</p>
-                            <p className="text-sm">CSU-G Technolympics | 2024</p>
+                            <p className="text-sm text-white/50">CSU-G Technolympics | 2024</p>
                         </div>
                         <div>
                             <p className="font-bold">3rd Place Quiz Bowl</p>
-                            <p className="text-sm">CSU-G CICS Day | 2023</p>
+                            <p className="text-sm text-white/50">CSU-G CICS Day | 2023</p>
                         </div>
                     </div>
 
