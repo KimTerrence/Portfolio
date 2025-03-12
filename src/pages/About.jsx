@@ -34,7 +34,7 @@ export default function about(){
                         </div>
                         <div>
                             <p className="font-bold">4th Place Static Web Design</p>
-                            <p className="text-sm text-white/50">CSU Uniwide ICT | 2025</p>
+                            <p className="text-sm text-white/50">Uniwide ICT Skills Olympics CSU | 2025</p>
                         </div>
                         <div>
                             <p className="font-bold">2nd Place Static Web Design</p>
